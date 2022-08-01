@@ -32,6 +32,10 @@ h2 {
   font-family: "Segoe UI", Arial, sans-serif;
   font-weight: 400;
 }
+
+input, button {
+  font: inherit;
+}
 /* ************ */
 /* reusable elements */
 /* ************ */

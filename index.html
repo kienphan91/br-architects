@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/component.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/query.css">
+    <link rel="stylesheet" href="./css/query.css" />
     <title>Br Architects</title>
   </head>
   <body>
     <!-- Navigation bar -->
-    <div class="navbar">
+    <nav class="navbar">
       <a href="./index.html" class="navbar-logo"
         ><strong>BR</strong> Architects</a
       >
@@ -27,16 +28,18 @@
           <a href="#contact" class="nav-link">Contact</a>
         </li>
       </ul>
-    </div>
+    </nav>
     <!-- Header -->
-    <div class="header">
+    <header class="header">
       <img src="./img/banner.jpg" alt="Hình banner" class="header-img" />
-      <h1 class="heading-primary"><strong>BR</strong><span> Architects</span></h1>
-    </div>
+      <h1 class="heading-primary">
+        <strong>BR</strong><span> Architects</span>
+      </h1>
+    </header>
     <!-- Main -->
-    <div class="main">
+    <main class="main">
       <!-- project -->
-      <div class="project" id="project">
+      <section class="project" id="project">
         <div class="section-box">
           <h2 class="heading-secondary">Projects</h2>
         </div>
@@ -106,12 +109,12 @@
             <p class="project-title">Barn House</p>
           </div>
         </div>
-      </div>
+      </section>
       <!-- about -->
-      <div class="about" id="about">
+      <section class="about" id="about">
         <div class="section-box">
           <h2 class="heading-secondary">About</h2>
-          <p class="text">
+          <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -123,13 +126,92 @@
             ea commodo consequat.
           </p>
         </div>
-      </div>
+        <div class="about-grid">
+          <div class="card">
+            <img
+              src="./img/project/members/member1.jpg"
+              alt="John Doe"
+              class="card-img-top"
+            />
+            <h2 class="card-title">John Doe</h2>
+            <p class="card-sub">CEO & Founder</p>
+            <p class="card-text">
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+            <a href="#" class="card-button">Contact</a>
+          </div>
+          <div class="card">
+            <img
+              src="./img/project/members/member2.jpg"
+              alt="Jane Doe"
+              class="card-img-top"
+            />
+            <h2 class="card-title">Jane Doe</h2>
+            <p class="card-sub">Architect</p>
+            <p class="card-text">
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+            <a href="#" class="card-button">Contact</a>
+          </div>
+          <div class="card">
+            <img
+              src="./img/project/members/member3.jpg"
+              alt="Mike Ross"
+              class="card-img-top"
+            />
+            <h2 class="card-title">Mike Ross</h2>
+            <p class="card-sub">Architect</p>
+            <p class="card-text">
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+            <a href="#" class="card-button">Contact</a>
+          </div>
+          <div class="card">
+            <img
+              src="./img/project/members/member4.jpg"
+              alt="Dan Star"
+              class="card-img-top"
+            />
+            <h2 class="card-title">Dan Star</h2>
+            <p class="card-sub">Architect</p>
+            <p class="card-text">
+              Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
+              sodales pellentesque elementum.
+            </p>
+            <a href="#" class="card-button">Contact</a>
+          </div>
+        </div>
+      </section>
       <!-- contact -->
-      <div class="contact"></div>
+      <section class="contact">
+        <div class="section-box">
+          <h2 class="heading-secondary">Contact</h2>
+          <p class="section-text">
+            Lets get in touch and talk about your next project.
+          </p>
+          <form class="form">
+            <input type="text" class="form-control" placeholder="Name" />
+            <input type="text" class="form-control" placeholder="Email" />
+            <input type="text" class="form-control" placeholder="Subject" />
+            <input type="text" class="form-control" placeholder="Comment" />
+            <button class="form-button">SEND MESSAGE</button>
+          </form>
+        </div>
+      </section>
       <!-- map -->
-      <div class="map"></div>
-    </div>
+      <section class="map">
+        <img src="./img/map.jpg" alt="Map" class="map-img" />
+      </section>
+    </main>
     <!-- footer -->
-    <div class="footer"></div>
+    <footer class="footer">
+      <p class="copyright">
+        Powered by
+        <a href="https://www.w3schools.com/" target="_blank"><u>w3.css</u></a>
+      </p>
+    </footer>
   </body>
 </html>
